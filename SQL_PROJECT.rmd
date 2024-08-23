@@ -1,0 +1,47 @@
+# 🎓 Finite U Job Search - SQL Project
+
+Welcome to the **Finite U Job Search** project! This is a SQL-based application designed to solve a real-world problem faced by international students looking for on-campus jobs. Let's dive into what this project is all about, the technologies used, and the concepts covered!
+
+## 📝 Introduction
+
+When I first arrived at university as an international student, I noticed a common issue: some students ended up with multiple on-campus jobs, while others couldn't secure even one. This project aims to address that problem by prioritizing job allocations to students who don't yet have a job, ensuring a fairer distribution of opportunities.
+
+## 🚀 Use Case
+
+Imagine a scenario where the university's job portal gives priority to students who are still looking for their first job, rather than allowing one student to hold multiple positions. This SQL-based solution makes that possible by:
+
+- **Preventing job hoarding:** Ensuring students with no jobs get priority.
+- **Fair opportunity distribution:** Making sure everyone has a chance to get an on-campus job.
+- **Simplified job matching:** Automating the matching process using SQL stored procedures and views.
+
+## 🛠️ Technologies Used
+
+- **SQL Server:** The core database where all the logic is implemented.
+- **PowerApps & Power Automate:** Integrated with the SQL logic to provide a user-friendly interface for students and employers.
+- **GitHub:** To track and share the progress of this project.
+
+## 📚 Concepts Covered
+
+This project involves several advanced SQL concepts to ensure fair job distribution:
+
+- **Views:**
+  - `v_student_info`: Aggregates basic student information, including skills and ranks.
+  - `v_open_position_info`: Combines open job positions with required skills and pay rates.
+  - `v_fws_priority_students`: Determines Federal Work-Study (FWS) priority for students based on their earnings and awards.
+
+- **Stored Procedures:**
+  - `sp_student_info_by_id`: Matches students to jobs based on their profile, skills, and availability.
+  - `sp_student_match_by_position_id`: Finds the best-suited students for a given job position, prioritizing those without current employment.
+  - `p_insert_skill` & `p_remove_skill`: Manage skills in student profiles dynamically through PowerApps.
+
+These views and stored procedures work together to automate the job matching process and ensure that the university's job allocation system is fair and efficient.
+
+## 👤 Contribution
+
+This project was created by **Rijul Ugawekar** with the goal of making on-campus job opportunities more accessible and fair for all students. If you're interested in contributing or have any suggestions, feel free to reach out!
+
+## 🔗 Project Link
+
+Check out the full project on GitHub: [Finite U Job Search - SQL Project](https://github.com/your-username/finite-u-job-search)
+
+---
