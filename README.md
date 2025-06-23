@@ -58,6 +58,8 @@ This project was created by **Rijul Ugawekar** with the goal of making on-campus
 
 Check out the full project on GitHub: [Finite U Job Search - SQL Project](https://apps.powerapps.com/play/e/default-4278a402-1a9e-4eb9-8414-ffb55a5fcf1e/a/512ff569-154a-47af-abdb-c92141fc7b92?tenantId=4278a402-1a9e-4eb9-8414-ffb55a5fcf1e&source=AppSharedV3&hint=50d47059-1022-4afc-904f-6cfe72b417ed&sourcetime=1701466254899)
 
+
+Drive link: https://drive.google.com/drive/u/1/folders/1vle49XXlJ_C9CH7dSsvmcUjyAGrEQsWW
 ---
 
 Thank you for exploring the **Finite U Job Search** project! Let's make job hunting easier and fairer for everyone. 🚀
